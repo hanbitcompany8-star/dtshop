@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG U+ 공식 본사 직영점 - 10년의 신뢰</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'uplus-pink': '#E6007E',
+                        'uplus-black': '#111111',
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans KR"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=2070&auto=format&fit=crop') center/cover;
+        }
+        .glass-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <!-- Header (상단 고정) -->
+    <header class="glass-header fixed w-full top-0 z-50 border-b border-gray-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                <span class="text-uplus-pink text-3xl font-black tracking-tighter">LG U+</span>
+                <span class="text-gray-800 font-bold text-lg hidden sm:block border-l-2 border-gray-300 pl-2 ml-1">본사 직영점</span>
+            </div>
+            <!-- Contact Buttons -->
+            <div class="flex gap-2 sm:gap-4">
+                <a href="#consult-form" class="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-medium transition text-sm sm:text-base">
+                    <i class="fa-solid fa-phone"></i> <span class="hidden sm:inline">전화 상담</span>
+                </a>
+                <a href="#consult-form" class="flex items-center gap-2 bg-[#FEE500] hover:bg-[#FADA0A] text-black px-4 py-2 rounded-full font-medium transition text-sm sm:text-base">
+                    <i class="fa-solid fa-comment"></i> <span class="hidden sm:inline">카카오톡 문의</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Main Hero -->
+    <section class="hero-bg pt-32 pb-20 md:pt-48 md:pb-32 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-uplus-black">
+                가족 통신비, <br class="md:hidden"/> 아직도 헤매고 계신가요? <br>
+                <span class="text-uplus-pink">10년의 믿음</span>, 직영점에서 투명하게 설계해 드립니다.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                최신 스마트폰부터 인터넷+TV 결합까지. <br class="hidden sm:block">
+                과장 없이, 본사 승인 기준 <strong>'최대 현금 지원'</strong> 혜택을 지금 바로 확인하세요.
+            </p>
+            <a href="#consult-form" class="inline-block bg-uplus-pink hover:bg-pink-700 text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                내게 맞는 최적의 요금/혜택 알아보기
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: Trust -->
+    <section class="py-20 bg-white px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <span class="text-uplus-pink font-bold tracking-wider text-sm mb-2 block">TRUST & STABILITY</span>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">10년 동안 고객님 곁을 지킨 <br class="md:hidden"/> 검증된 <span class="text-uplus-pink">안정성</span>과 <span class="text-uplus-pink">신뢰!</span></h2>
+            <p class="text-xl text-gray-600 mb-12">사라질 걱정 없는 오프라인 매장, 대구/경북 10개 본사 직영점의 위엄</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <div class="rounded-2xl overflow-hidden shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=2070&auto=format&fit=crop" alt="깔끔한 매장 내부" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+                    <div class="bg-gray-50 p-4 text-left">
+                        <p class="font-bold">쾌적한 상담 공간</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=2070&auto=format&fit=crop" alt="친절한 상담" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+                    <div class="bg-gray-50 p-4 text-left">
+                        <p class="font-bold">1:1 맞춤 프리미엄 컨설팅</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md group hidden md:block">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" alt="매장 전경" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+                    <div class="bg-gray-50 p-4 text-left">
+                        <p class="font-bold">대구/경북 10개 오프라인 지점</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-gray-600 max-w-3xl mx-auto bg-gray-50 p-6 rounded-xl">
+                구미역점을 비롯한 10개의 오프라인 직영 매장을 10년간 변함없이 운영해 왔습니다. <br class="hidden md:block">
+                언제든 직접 방문하고 소통할 수 있는 튼튼한 공식 매장에서 가장 안전하게 가입하세요.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3: Products -->
+    <section class="py-20 bg-gray-50 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">가장 확실한 혜택, <br class="md:hidden"/> 오직 직영점에서만.</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-pink-50 rounded-full flex items-center justify-center text-uplus-pink text-3xl mb-6">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">최신 스마트폰 맞춤 설계</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        최신 아이폰 & 갤럭시 프리미엄 라인업 완비. 
+                        <strong>상세 모델</strong> 및 가입 조건별 맞춤 할인 혜택을 1:1로 투명하게 컨설팅해 드립니다.
+                    </p>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-pink-50 rounded-full flex items-center justify-center text-uplus-pink text-3xl mb-6">
+                        <i class="fa-solid fa-house-signal"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">인터넷 + TV 결합</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        인터넷+TV 가입 및 가족 결합 시, 공식적인 <strong>최대 현금 지원</strong>을 약속드립니다. 꼼수 없는 정직한 요금 설계로 가계 통신비를 확실히 낮춰드립니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Social Proof -->
+    <section class="py-20 bg-white px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">숫자와 리얼 후기가 증명하는 <br class="md:hidden"/> 직영점의 차이</h2>
+            </div>
+            
+            <!-- Counters -->
+            <div class="flex flex-col md:flex-row justify-center gap-10 md:gap-32 mb-20" id="counter-section">
+                <div class="text-center">
+                    <p class="text-gray-500 font-bold mb-2">누적 개통</p>
+                    <div class="text-5xl font-black text-uplus-pink"><span class="counter" data-target="35000">0</span><span class="text-3xl">+</span></div>
+                    <p class="text-sm text-gray-400 mt-2">건</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-500 font-bold mb-2">누적 상담</p>
+                    <div class="text-5xl font-black text-uplus-pink"><span class="counter" data-target="82000">0</span><span class="text-3xl">+</span></div>
+                    <p class="text-sm text-gray-400 mt-2">건</p>
+                </div>
+            </div>
+            
+            <!-- Reviews -->
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-8 rounded-2xl relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-gray-200 absolute top-6 left-6"></i>
+                    <p class="text-gray-700 relative z-10 font-medium text-lg pt-6">
+                        "가족 결합으로 매달 나가는 통신비 정말 많이 줄였어요! 이것저것 숨기는 것 없이 요금 설계가 완전 투명해서 믿음이 갑니다."
+                    </p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-white font-bold">김</div>
+                        <div>
+                            <p class="font-bold text-sm">김*수 고객님</p>
+                            <p class="text-xs text-gray-500">인터넷+TV / 가족결합 가입</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-gray-200 absolute top-6 left-6"></i>
+                    <p class="text-gray-700 relative z-10 font-medium text-lg pt-6">
+                        "매장이 크고 깔끔해서 지나가다 들렀는데, 상담도 엄청 친절하시네요. 다음 폰 바꿀 때도 무조건 여기로 오려고요. 감사합니다!"
+                    </p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-white font-bold">이</div>
+                        <div>
+                            <p class="font-bold text-sm">이*진 고객님</p>
+                            <p class="text-xs text-gray-500">갤럭시 S24 울트라 개통</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Lead Gen (상담 신청 폼) -->
+    <section id="consult-form" class="py-20 bg-gray-900 text-white px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">1분이면 충분합니다. <br class="md:hidden"/> 프리미엄 맞춤 컨설팅을 신청하세요.</h2>
+                <p class="text-gray-400">연락처를 남겨주시면, 전문 상담사가 고객님께 딱 맞는 최적의 혜택을 안내해 드립니다.</p>
+            </div>
+            
+            <form class="bg-white text-gray-800 p-8 md:p-10 rounded-3xl shadow-2xl max-w-2xl mx-auto" onsubmit="event.preventDefault(); alert('상담 신청이 완료되었습니다. 100% 프론트엔드 데모입니다.');">
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">이름 <span class="text-uplus-pink">*</span></label>
+                        <input type="text" placeholder="홍길동" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-uplus-pink focus:border-transparent transition">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">연락처 <span class="text-uplus-pink">*</span></label>
+                        <input type="tel" placeholder="010-0000-0000" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-uplus-pink focus:border-transparent transition">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-3">관심 상품 (중복 선택 가능) <span class="text-uplus-pink">*</span></label>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <label class="flex items-center gap-2 cursor-pointer p-3 border border-gray-200 rounded-lg hover:bg-gray-50 flex-1">
+                                <input type="checkbox" class="w-5 h-5 text-uplus-pink rounded focus:ring-uplus-pink">
+                                <span class="font-medium">최신 스마트폰</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer p-3 border border-gray-200 rounded-lg hover:bg-gray-50 flex-1">
+                                <input type="checkbox" class="w-5 h-5 text-uplus-pink rounded focus:ring-uplus-pink">
+                                <span class="font-medium">인터넷 + TV</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-uplus-pink hover:bg-pink-700 text-white font-bold py-4 rounded-xl text-lg transition shadow-lg mt-4">
+                        프리미엄 맞춤 컨설팅 신청하기
+                    </button>
+                    <p class="text-xs text-center text-gray-400 mt-4">입력하신 정보는 상담 목적으로만 사용되며, 절대 외부로 유출되지 않습니다.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-500 py-12 px-4 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8">
+            <div>
+                <span class="text-white text-2xl font-black mb-4 block">LG U+ <span class="text-gray-400 font-bold text-lg">본사 직영점</span></span>
+                <p class="text-sm mb-2">대구/경북 10개 오프라인 직영 매장 운영</p>
+                <p class="text-sm mb-2">대표 전화 : <span class="text-white font-bold">1500-0000</span> (평일 09:00 ~ 18:00)</p>
+                <p class="text-sm">카카오톡 채널 : @유플러스직영점</p>
+            </div>
+            <div class="text-sm">
+                <p class="font-bold text-gray-400 mb-4">대표 지점 안내</p>
+                <ul class="space-y-2">
+                    <li>[구미역점] 경북 구미시 구미중앙로 00</li>
+                    <li>[대구동성로점] 대구 중구 동성로 00</li>
+                    <li>[경산점] 경북 경산시 대학로 00</li>
+                    <li class="pt-2 text-xs">(외 7개 지점 운영 중)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-800 text-xs text-center">
+            <p>상호: (주)유플러스네트웍스 (가칭) | 대표자: 홍길동 | 사업자등록번호: 000-00-00000</p>
+            <p class="mt-2">&copy; 2024 LG U+ 직영점. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 숫자 카운팅 애니메이션 스크립트 -->
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200; // 숫자가 올라가는 속도
+
+        const startCounting = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const updateCount = () => {
+                        const target = +counter.getAttribute('data-target');
+                        const count = +counter.innerText.replace(/,/g, '');
+                        const inc = target / speed;
+
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count + inc).toLocaleString();
+                            setTimeout(updateCount, 10);
+                        } else {
+                            counter.innerText = target.toLocaleString();
+                        }
+                    };
+                    updateCount();
+                    observer.unobserve(counter); // 한번만 실행
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(startCounting, {
+            threshold: 0.5
+        });
+
+        counters.forEach(counter => {
+            observer.observe(counter);
+        });
+    </script>
+</body>
+</html>
